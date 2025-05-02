@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Code Translator",
+  "version": "1.0",
+  "description": "Translate code blocks to your preferred language.",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "prism/prism.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {}
+  }
+}
