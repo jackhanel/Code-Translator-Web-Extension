@@ -1,5 +1,5 @@
 const translationCache = {}; // Cache original code -> translated code
-const backendUrl = "http://localhost:5000/translate_code";
+const backendUrl = "https://code-translator-web-extension.onrender.com";
 
 function addTranslateControls(codeBlock) {
   const originalHTML = codeBlock.innerHTML; // Save original HTML with color coding
