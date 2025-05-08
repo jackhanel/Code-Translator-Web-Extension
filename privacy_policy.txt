@@ -1,0 +1,33 @@
+This web extension respects your privacy. This policy outlines how we handle information when you use our Chrome extension.
+
+1. Information We Collect
+
+    We do not collect, store, or transmit any personal or sensitive user data.
+
+    When you use the extension to translate code snippets, the selected code is sent anonymously to our backend server solely for translation purposes.
+
+    For performance optimization, the extension temporarily caches translated code snippets within your current browser session. This cache is stored in-memory and is cleared when the browser or tab is closed. No data is stored persistently or transmitted to third parties.
+
+2. Use of Data
+
+    The extension only processes the code you highlight and send for translation. This data is:
+
+        Not stored on our servers.
+        Not linked to any personal identity.
+        Used only in real-time to provide translated code.
+
+3. Third-Party Services
+
+    We use OpenAI's API for translation processing. No personal data is sent to OpenAI—only the code snippet and requested target language are submitted during translation.
+
+4. Security
+
+    While we don’t store any user data, we ensure secure communication between the extension and our backend via HTTPS.
+
+5. User Control
+
+    You can uninstall the extension at any time via Chrome's extensions manager. No data will remain after uninstallation.
+
+6. Changes to This Policy
+
+    If this policy changes, we’ll update the text on our extension listing page and the extension’s support site
